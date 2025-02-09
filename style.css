@@ -8,21 +8,23 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: white;
-
+    color: white;
+    background-image: url(Universe-Background-HD-Wallpapers-62195.jpg);
+    background-size: cover;
 }
 
 .container {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: transparent;
     box-shadow: 5px 5px 10px rgba(9, 9, 9, 0.1);
     padding: 20px;
     border-radius: 40px;
     margin-top: 250px;
     height: 350px;
     width: 350px;
+    border-style: solid;
 }
 
 input {
@@ -32,9 +34,21 @@ input {
     height: 40px;
 }
 
+.insert i{
+    position: absolute;
+    right: 20px;
+    font-size: 24px;
+    top: 50%;
+    color: rgb(39,3,32);
+    transform: translate(-50%);
+}
+
+p {
+    margin-top: 25px;
+}
 
 #btnlogin {
-    margin-top: 20px;
+    margin-top: 25px;
     background-color:#0866ff;
     border-radius: 5px;
     width: 350px;
@@ -48,13 +62,14 @@ input {
     justify-content: center;
     text-align: center;
     display: flex;
-    background-color: whitesmoke;
+    background-color: transparent;
     box-sizing: border-box;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     margin-top: 250px;
-    height: 480px;
+    height: 500px;
     width: 420px;
     border-radius: 35px;
+    border-style: solid;
 }
 
 #btnsignup {
@@ -70,19 +85,17 @@ input {
 #btnfacebook {
     margin-top: 10px;
     background-color: #0866ff;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 350px;
     height: 40px;
-    border-radius: 10px;
 }
 
 #btngoogle {
     margin-top: 20px;
     background-color: rgb(245, 247, 247);
-    border-radius: 5px;
+    border-radius: 15px;
     width: 350px;
     height: 40px;
-    border-radius: 10px;
 }
 
 .fb-container {
@@ -145,14 +158,14 @@ input {
     color: #000;
 }
 
-.separator {
+.line {
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 10px 0;
 }
 
-.separator hr {
+.line hr {
     flex-grow: 1;
     border: none;
     border-top: 1px solid #000;
